@@ -244,6 +244,47 @@ button.active-btn {
     text-align: center;
 }
 
+/* Contact */
+.contact .header .header-contact {
+    font-size: 40px;
+    color: rgb(247, 109, 55);
+    margin-top: 1rem;
+}
+
+form .input-group,
+.form-floating {
+    margin-top: 24px;
+}
+
+form .input-group input {
+    height: 50px;
+}
+
+form .form-control {
+    border-radius: 20px;
+}
+
+/* input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+} */
+
+form .button-form {
+    border-radius: 20px !important;
+    padding: 5px !important;
+    width: 90px;
+    color: #fdfcfa !important;
+    background-color: rgb(247, 109, 55) !important;
+    font-size: 18px !important;
+    border: none;
+    margin-top: 16px;
+}
+
+form .button-form:hover {
+    background-color: rgba(247, 110, 55, 0.753) !important;
+}
+
 
 /* Show Animate */
 .show-main {

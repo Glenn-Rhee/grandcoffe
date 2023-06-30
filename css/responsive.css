@@ -48,6 +48,11 @@
     }
 
     /* About */
+
+    section.about {
+        padding: 2rem .3rem 7rem;
+    }
+
     .about .container {
         margin-top: 3.3rem;
     }
@@ -80,6 +85,10 @@
     }
 
     /* Services */
+    section.Services {
+        margin-bottom: 7rem;
+    }
+
     .Services .container-fluid {
         background-image: url(../imgs/services-bg.png);
         background-position: -20px 0;
@@ -124,6 +133,7 @@
     /* Testimonial */
     .testi {
         margin-top: 3rem;
+        margin-bottom: 5.7rem;
     }
 
     .testi .container .header-testi h3 {
@@ -151,6 +161,9 @@
         text-align: center;
         margin-top: 1.5rem;
     }
+
+    /* Contact */
+
 }
 
 @media (min-width: 768px) {
@@ -389,7 +402,7 @@
 
     /* Testimonial */
     .testi {
-        padding: 6rem 5rem;
+        padding: 6rem 5rem 8rem;
     }
 
     .testi .container .header-testi h3 {
