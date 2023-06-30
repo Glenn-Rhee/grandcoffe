@@ -13,6 +13,10 @@ a {
     color: black;
 }
 
+li {
+    list-style-type: none;
+}
+
 p {
     font-size: 18px;
 }
@@ -85,6 +89,7 @@ nav .navbar-collapse {
     background-size: cover;
     background-position: center;
     padding: 3.6rem;
+    /* min-height: 100vh; */
 }
 
 .container-text {
@@ -264,12 +269,6 @@ form .form-control {
     border-radius: 20px;
 }
 
-/* input[type="number"]::-webkit-inner-spin-button,
-input[type="number"]::-webkit-outer-spin-button {
-    -webkit-appearance: none;
-    margin: 0;
-} */
-
 form .button-form {
     border-radius: 20px !important;
     padding: 5px !important;
@@ -285,6 +284,44 @@ form .button-form:hover {
     background-color: rgba(247, 110, 55, 0.753) !important;
 }
 
+/* Footer */
+footer {
+    padding-top: 4rem;
+}
+
+footer .container-fluid {
+    background-color: #252525;
+    padding: 5rem 0 3rem;
+}
+
+footer .container-fluid,
+footer a {
+    color: #c6c5c5;
+}
+
+footer a:hover {
+    color: rgb(247, 109, 55);
+}
+
+footer .row-footer {
+    gap: 8px;
+}
+
+footer ul {
+    margin-left: -2rem;
+}
+
+footer .main-footer {
+    margin-top: 20px;
+}
+
+footer .social-media {
+    margin-top: 20px;
+}
+
+footer .social-media a img:hover {
+    opacity: .6;
+}
 
 /* Show Animate */
 .show-main {

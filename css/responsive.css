@@ -48,7 +48,6 @@
     }
 
     /* About */
-
     section.about {
         padding: 2rem .3rem 7rem;
     }
@@ -455,5 +454,17 @@
 
     .testi .container .btn-move button:hover {
         background-color: rgb(247, 109, 55) !important;
+    }
+
+    /* Footer */
+    footer h3 {
+        font-size: 25px;
+        font-weight: 700;
+    }
+
+    footer p,
+    footer a,
+    footer li {
+        font-size: 15px;
     }
 }
