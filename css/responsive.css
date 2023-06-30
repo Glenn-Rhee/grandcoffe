@@ -23,8 +23,9 @@
     /* Main-hero */
     .main-hero .container-fluid {
         background-size: cover;
-        background-position-x: -14rem;
+        background-position-x: center;
         padding: 3rem .7rem;
+        display: flex;
     }
 
     .container-text {
@@ -32,18 +33,18 @@
     }
 
     .container-text .heading-top {
-        font-size: 30px;
+        font-size: 40px;
         font-weight: 300;
     }
 
     .container-text .heading-coffe {
-        font-size: 40px;
+        font-size: 50px;
         font-weight: 700;
         margin-top: .7rem;
     }
 
     .container-text .paragraf {
-        font-size: 18px;
+        font-size: 14px;
         margin-top: 12px;
     }
 
@@ -196,22 +197,22 @@
     }
 
     .container-text {
-        max-width: 400px;
+        max-width: 500px;
     }
 
     .container-text .heading-top {
-        font-size: 45px;
+        font-size: 60px;
         font-weight: 400;
     }
 
     .container-text .heading-coffe {
-        font-size: 55px;
+        font-size: 70px;
         font-weight: 700;
         margin-top: .5rem;
     }
 
     .container-text .paragraf {
-        font-size: 18px;
+        font-size: 16px;
         margin-top: 12px;
     }
 
@@ -319,6 +320,31 @@
 @media (min-width: 992px) {
 
     /* Main */
+    .main-hero div.container-fluid {
+        padding: 7rem 3.6rem;
+        min-height: 100vh;
+    }
+
+    .main-hero .container-text {
+        max-width: 900px;
+    }
+
+    .container-text h1.heading-top {
+        font-size: 80px;
+        font-weight: 400;
+    }
+
+    .container-text h1.heading-coffe {
+        font-size: 150px;
+        font-weight: 700;
+        margin-top: 1.4rem;
+    }
+
+    .container-text .paragraf {
+        font-size: 18px;
+        margin-top: 22px;
+    }
+
     .main-hero {
         padding-bottom: 6rem;
     }
