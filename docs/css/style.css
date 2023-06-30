@@ -186,13 +186,9 @@ nav .navbar-collapse {
     margin-top: 16px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
     border-radius: 10px;
-    transition: 1s;
+    transition: .5s;
     transform: translate(0, -50px);
     opacity: 0;
-}
-
-.gallery .container img:hover {
-    opacity: .6;
 }
 
 .gallery .layout-gallery .container .see-more {
@@ -243,15 +239,24 @@ nav .navbar-collapse {
 }
 
 /* Testimonial */
-.testi .container .header-testi h3 {
+.testi .container .header-testi h3,
+.testi .container .person-testi h2 {
     color: rgb(247, 109, 55);
+}
+
+.testi .container .header-testi h3 {
     font-weight: 700;
 }
 
 .testi .container .person-testi h2 {
-    color: rgb(247, 109, 55);
     font-weight: 600;
     text-transform: uppercase;
+}
+
+#person-testi {
+    transition: 1s;
+    opacity: 0;
+    transform: translate(-25rem, 0);
 }
 
 button.active-btn {

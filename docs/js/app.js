@@ -3,6 +3,21 @@ document.addEventListener("DOMContentLoaded", function () {
     setAnimateMain()
 })
 
+// const imgsGallery = document.querySelectorAll(".gallery img");
+// imgsGallery.forEach((img) => {
+//     if (styles.opacity == 1) {
+//         img.addEventListener("mouseover", function () {
+//             img.style.transform = "scale(2)";
+//         })
+
+//         img.addEventListener("mouseout", function () {
+//             img.style.transform = "scale(1)";
+//         })
+
+//     }
+// })
+
+
 // Halaman di scroll
 window.addEventListener("scroll", function () {
     let wScroll = this.scrollY;
@@ -12,9 +27,14 @@ window.addEventListener("scroll", function () {
         setAnimateAbout();
     }
 
-    if (wScroll > 1170) {
+    if (wScroll > 860) {
         setAnimateGallery();
     }
+
+    if (wScroll > 3900) {
+        setAnimateTesti();
+    }
+
 })
 
 function setAnimateMain() {
@@ -57,7 +77,22 @@ function setAnimateGallery() {
     const imgsGallery = document.querySelectorAll(".gallery img");
     imgsGallery.forEach((img, index) => {
         setInterval(() => {
-            img.classList.add("show")
+            img.classList.add("show");
+            setInterval(() => {
+                img.addEventListener("mouseover", function () {
+                    img.style.opacity = ".7";
+                })
+                img.addEventListener("mouseout", function () {
+                    img.style.opacity = "1";
+                })
+            }, 500 * (imgsGallery.length));
         }, 500 * (index + 1));
+
     })
 }
+
+function setAnimateTesti() {
+    const person = document.getElementById("person-testi");
+    person.classList.add("show");
+}
+
