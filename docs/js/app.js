@@ -3,22 +3,40 @@ document.addEventListener("DOMContentLoaded", function () {
     setAnimateMain()
 })
 
+const wHeight = window.outerHeight;
+console.log(wHeight);
+
 // Halaman di scroll
 window.addEventListener("scroll", function () {
     let wScroll = this.scrollY;
     wScroll = Math.round(wScroll);
-    // console.log(wScroll);
-    if (wScroll > 150) {
-        setAnimateAbout();
+    console.log(wScroll);
+    if (wHeight < 800) {
+        if (wScroll > 150) {
+            setAnimateAbout();
+        }
+
+        if (wScroll > 860) {
+            setAnimateGallery();
+        }
+
+        if (wScroll > 5350) {
+            setAnimateTesti();
+        }
+    } else {
+        if (wScroll > 150) {
+            setAnimateAbout();
+        }
+
+        if (wScroll > 860) {
+            setAnimateGallery();
+        }
+
+        if (wScroll > 3900) {
+            setAnimateTesti();
+        }
     }
 
-    if (wScroll > 860) {
-        setAnimateGallery();
-    }
-
-    if (wScroll > 3900) {
-        setAnimateTesti();
-    }
 
 })
 
