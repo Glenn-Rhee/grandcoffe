@@ -89,8 +89,8 @@ function setAnimateGallery() {
                 img.addEventListener("mouseout", function () {
                     img.style.opacity = "1";
                 })
-            }, 500 * (imgsGallery.length));
-        }, 500 * (index + 1));
+            }, 200 * (imgsGallery.length));
+        }, 200 * (index + 1));
     })
 }
 
