@@ -3,26 +3,11 @@ document.addEventListener("DOMContentLoaded", function () {
     setAnimateMain()
 })
 
-// const imgsGallery = document.querySelectorAll(".gallery img");
-// imgsGallery.forEach((img) => {
-//     if (styles.opacity == 1) {
-//         img.addEventListener("mouseover", function () {
-//             img.style.transform = "scale(2)";
-//         })
-
-//         img.addEventListener("mouseout", function () {
-//             img.style.transform = "scale(1)";
-//         })
-
-//     }
-// })
-
-
 // Halaman di scroll
 window.addEventListener("scroll", function () {
     let wScroll = this.scrollY;
     wScroll = Math.round(wScroll);
-    console.log(wScroll);
+    // console.log(wScroll);
     if (wScroll > 150) {
         setAnimateAbout();
     }
@@ -43,13 +28,13 @@ function setAnimateMain() {
     const mainP = document.querySelector("section .paragraf");
     const btnMain = document.querySelector("section button");
     hTop.classList.add("show");
-    setInterval(function () {
+    setTimeout(function () {
         hCoffe.classList.add("show");
     }, 350)
-    setInterval(function () {
+    setTimeout(function () {
         mainP.classList.add("show");
     }, 700)
-    setInterval(function () {
+    setTimeout(function () {
         btnMain.classList.add("show");
     }, 1050)
 }
@@ -81,13 +66,13 @@ function setAnimateGallery() {
             setInterval(() => {
                 img.addEventListener("mouseover", function () {
                     img.style.opacity = ".7";
+                    img.style.cursor = "pointer";
                 })
                 img.addEventListener("mouseout", function () {
                     img.style.opacity = "1";
                 })
             }, 500 * (imgsGallery.length));
         }, 500 * (index + 1));
-
     })
 }
 
