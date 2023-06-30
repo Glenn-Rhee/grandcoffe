@@ -1,0 +1,254 @@
+/* https://www.free-css.com/free-css-templates/page292/grandcoffee */
+@import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+* {
+    box-sizing: border-box !important;
+    transition: ease all 0.5s;
+}
+
+a {
+    text-decoration: none !important;
+    outline: none !important;
+    color: black;
+}
+
+p {
+    font-size: 18px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    color: #666666;
+    background-color: #dedede;
+    font-size: 14px;
+    font-family: Poppins;
+    line-height: 1.80857;
+    font-weight: normal;
+    overflow-x: hidden !important;
+}
+
+button {
+    background-color: #252525 !important;
+    border-radius: 40px !important;
+    padding: 10px;
+    color: #fdfcfa !important;
+    font-size: 18px !important;
+}
+
+button:hover {
+    background-color: rgb(247, 109, 55) !important;
+}
+
+
+/* Navbar */
+nav {
+    background-color: #252525;
+}
+
+nav .navbar-toggler {
+    background-color: #dedede !important;
+    box-shadow: 1px 1px .5px rgba(0, 0, 0, 0.4);
+    border: none;
+}
+
+nav .container-fluid {
+    padding: 8px;
+    margin-left: 1.5rem;
+}
+
+nav .navbar-collapse {
+    text-align: center;
+}
+
+.nav-item .nav-link:hover {
+    color: rgb(247, 109, 55);
+}
+
+.nav-item a.page-active {
+    color: rgb(247, 109, 55);
+}
+
+.nav-item .nav-link {
+    color: #fff;
+    font-size: 18px;
+    padding: 8px;
+}
+
+
+/* Main-Hero */
+.main-hero .container-fluid {
+    background-image: url(../imgs/banner-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding: 3.6rem;
+}
+
+.container-text {
+    max-width: 600px;
+}
+
+.container-text .heading-top {
+    font-size: 60px;
+    color: #252525;
+    font-weight: 300;
+}
+
+.container-text .heading-coffe {
+    font-size: 70px;
+    color: #fdfcfa;
+    font-weight: 700;
+    margin-top: 1.4rem;
+}
+
+.container-text .paragraf {
+    font-size: 18px;
+    color: #fdfcfa;
+    margin-top: 22px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+}
+
+.container-text button:hover {
+    background-color: rgb(247, 109, 55);
+    color: #fff;
+}
+
+/* About */
+.container .about-text .heading-about {
+    color: rgb(247, 109, 55);
+    font-weight: 700;
+}
+
+.container .about-text .heading-about {
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.container .about-text .about-paragraf {
+    margin-top: 13px;
+    color: #333;
+}
+
+.container .image-about img {
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
+    border-radius: 20px;
+}
+
+.container .about-text button:hover {
+    background-color: rgb(247, 109, 55);
+    color: #fff;
+}
+
+/* Gallery */
+.gallery {
+    padding-bottom: 6rem;
+}
+
+.layout-gallery .container .heading-gallery h1 {
+    color: rgb(247, 109, 55);
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.layout-gallery .container .container-main .overlay {
+    display: flex;
+    position: relative;
+}
+
+.gallery .container img {
+    margin-top: 16px;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+
+}
+
+.gallery .container img:hover {
+    opacity: .6;
+}
+
+.gallery .layout-gallery .container .see-more {
+    margin-top: 24px;
+    text-align: center;
+}
+
+.gallery .layout-gallery .container .gallery-button {
+    padding: 8px 22px;
+}
+
+/* Services */
+.Services .container-fluid {
+    background-image: url(../imgs/services-bg.png);
+    background-position: center;
+    background-size: cover;
+}
+
+.Services .container-fluid .container {
+    color: #fff !important;
+    text-align: center;
+}
+
+.container-fluid .service-text .heading h1,
+.container-fluid .service-text .paragraf p {
+    text-shadow: 1px 1px 20px rgb(37, 37, 37);
+    color: #ffffff;
+}
+
+.container-fluid .service-text .heading h1 {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container-fluid .our-service {
+    background-color: rgba(247, 110, 55, 0.473);
+}
+
+.container .our-service img {
+    margin-top: 3rem;
+    width: 80px;
+    height: 88px;
+}
+
+.container .our-service h4 {
+    margin-top: 2rem;
+}
+
+/* Testimonial */
+.testi .container .header-testi h3 {
+    color: rgb(247, 109, 55);
+    font-weight: 700;
+}
+
+.testi .container .person-testi h2 {
+    color: rgb(247, 109, 55);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+button.active-btn {
+    background-color: rgb(247, 109, 55) !important;
+}
+
+.testi .container .btn-move button {
+    width: 50px;
+    height: 20px;
+    cursor: pointer;
+    box-shadow: 2px -2px 1px rgba(0, 0, 0, 0.4), -2px 0 1px rgba(0, 0, 0, 0.4);
+}
+
+.testi .container .btn-move {
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+
+/* Show Animate */
+.show-main {
+    /* opacity: 1 !important; */
+    transform: translate(0, 0);
+    opacity: 1;
+
+}

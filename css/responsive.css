@@ -1,0 +1,446 @@
+@media (max-width: 512px) {
+
+    /* Navbar */
+    nav .container-fluid {
+        padding: 2px;
+        margin-left: 8px;
+    }
+
+    nav .container-fluid .logo {
+        width: 170px;
+    }
+
+    nav .navbar-toggler {
+        width: 50px;
+        margin-right: 8px;
+    }
+
+    .nav-item .nav-link {
+        font-size: 18px;
+        padding: 8px;
+    }
+
+    /* Main-hero */
+    .main-hero .container-fluid {
+        background-size: cover;
+        background-position-x: -14rem;
+        padding: 3rem .7rem;
+    }
+
+    .container-text {
+        max-width: 600px;
+    }
+
+    .container-text .heading-top {
+        font-size: 30px;
+        font-weight: 300;
+    }
+
+    .container-text .heading-coffe {
+        font-size: 40px;
+        font-weight: 700;
+        margin-top: .7rem;
+    }
+
+    .container-text .paragraf {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+
+    /* About */
+    .about .container {
+        margin-top: 3.3rem;
+    }
+
+    .container .about-text .heading-about {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .container .about-text .about-paragraf {
+        margin-top: 14px;
+    }
+
+    .container .about-text .about-paragraf .paragraf {
+        font-size: 18px;
+    }
+
+    .container .image-about {
+        margin-top: 1.6rem;
+    }
+
+    /* Gallery */
+    .gallery .layout-gallery .heading-gallery {
+        margin-top: 3.3rem;
+    }
+
+    .gallery .layout-gallery .container .see-more {
+        margin-top: 24px;
+        text-align: left;
+    }
+
+    /* Services */
+    .Services .container-fluid {
+        background-image: url(../imgs/services-bg.png);
+        background-position: -20px 0;
+        background-size: cover;
+    }
+
+    .container-fluid .service-text .heading h1 {
+        font-size: 35px;
+        font-weight: 500;
+    }
+
+    .container-fluid .service-text .paragraf p {
+        font-size: 20px;
+        font-weight: 200;
+        margin-top: 22px;
+    }
+
+    .container-fluid .our-service h4 {
+        font-size: 25px;
+        font-weight: 500;
+    }
+
+    .container-fluid .our-service p {
+        font-size: 18px;
+        font-weight: 200;
+    }
+
+    .Services .container-fluid {
+        padding: 2.7rem 1rem;
+    }
+
+    .container .our-service img {
+        margin-top: 2rem;
+        width: 40px;
+        height: 48px;
+    }
+
+    .container-fluid .our-service {
+        margin-top: 12px;
+    }
+
+    /* Testimonial */
+    .testi {
+        margin-top: 3rem;
+    }
+
+    .testi .container .header-testi h3 {
+        font-size: 30px;
+    }
+
+    .testi .container .header-testi p {
+        font-size: 18px;
+    }
+
+    .testi .container .customer-testi {
+        margin-top: 1.5rem;
+    }
+
+    .testi .container .person-testi h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .testi .container .person-testi p {
+        font-size: 18px;
+    }
+
+    .testi .container .btn-move {
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+
+    /* Navbar */
+    nav .container-fluid {
+        padding: 2px;
+        margin-left: 8px;
+    }
+
+    nav .container-fluid .logo {
+        width: 200px;
+        margin-left: 18px;
+    }
+
+    nav .navbar-toggler {
+        width: 50px;
+        margin-right: 20px;
+    }
+
+    .nav-item .nav-link {
+        font-size: 22px;
+        padding: 12px;
+    }
+
+    /* Main-hero */
+    .main-hero .container-fluid {
+        background-size: cover;
+        background-position-x: center;
+        padding: 2rem;
+    }
+
+    .container-text {
+        max-width: 400px;
+    }
+
+    .container-text .heading-top {
+        font-size: 45px;
+        font-weight: 400;
+    }
+
+    .container-text .heading-coffe {
+        font-size: 55px;
+        font-weight: 700;
+        margin-top: .5rem;
+    }
+
+    .container-text .paragraf {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+
+    /* About */
+    section.about {
+        margin-top: 3.4rem;
+    }
+
+    .Services .container-fluid {
+        background-image: url(../imgs/services-bg.png);
+        background-position: -20px 0;
+        background-size: cover;
+        padding: 2rem 0;
+    }
+
+    .about .container {
+        margin-top: 2rem;
+    }
+
+    .container .about-text .heading-about {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .container .about-text .about-paragraf {
+        margin-top: 16px;
+    }
+
+    .container .about-text .about-paragraf .paragraf {
+        font-size: 20px;
+    }
+
+    .container .image-about {
+        margin-top: 2.2rem;
+    }
+
+    /* Gallery */
+    .gallery .container .container-main {
+        display: flex;
+        justify-content: center;
+    }
+
+    .gallery .container .heading-gallery {
+        margin-top: 4rem;
+    }
+
+    /* Services */
+    .Services .container-fluid .service-text .heading {
+        margin-top: 24px;
+    }
+
+    .Services .container-fluid .service-text h1 {
+        font-size: 45px;
+    }
+
+    .Services .container-fluid .service-text p {
+        font-size: 28px;
+    }
+
+    .Services .container-fluid .our-service {
+        margin-top: 24px;
+    }
+
+    .Services .container-fluid .our-service h4 {
+        font-size: 35px;
+        font-weight: 700;
+    }
+
+    .Services .container-fluid .our-service p {
+        font-size: 25px;
+    }
+
+    /* Testimonial */
+    .testi {
+        padding-bottom: 3rem;
+    }
+
+    .testi,
+    .testi .customer-testi {
+        margin-top: 3.4rem;
+    }
+
+    .testi .header-testi h3,
+    .testi .person-testi h2 {
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .testi .header-testi p {
+        font-size: 25px;
+        font-weight: 400;
+    }
+
+    .testi .person-testi h2 {
+        text-align: center;
+    }
+
+    .testi .person-testi p {
+        font-size: 22px;
+        font-style: italic;
+        margin-top: 12px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    /* Main */
+    .main-hero {
+        padding-bottom: 6rem;
+    }
+
+    .main-hero .container-fluid {
+        background-size: cover;
+        background-position-x: center;
+        padding: 7rem 3rem;
+    }
+
+    .container-text {
+        max-width: 700px;
+    }
+
+    .container-text .heading-top {
+        font-size: 60px;
+        font-weight: 400;
+    }
+
+    .container-text .heading-coffe {
+        font-size: 70px;
+        font-weight: 700;
+        margin-top: .5rem;
+    }
+
+    .container-text .paragraf {
+        font-size: 18px;
+        margin-top: 12px;
+    }
+
+    /* About */
+    section.about {
+        padding-bottom: 6rem;
+    }
+
+    .about .container .about-text {
+        margin-top: 20%;
+        margin-right: 20px;
+    }
+
+    .container .about-text .heading-about {
+        font-size: 40px;
+    }
+
+    .container .about-text .about-paragraf {
+        margin-top: 13px;
+    }
+
+    .container .about-text .about-paragraf .paragraf {
+        font-size: 18px;
+    }
+
+    .container .image-about {
+        margin-top: 1.6rem;
+    }
+
+    /* Gallery */
+    .layout-gallery .container .heading-gallery h1 {
+        font-size: 40px;
+        font-weight: 700;
+        padding: 30px 0;
+    }
+
+    /* Services */
+    .Services .container-fluid {
+        background-position-x: center;
+        background-size: cover;
+        padding-top: 3rem;
+        padding-bottom: 2.2rem;
+    }
+
+    .container-fluid .our-service {
+        margin-right: 12px;
+    }
+
+    .container-fluid .service-card {
+        margin-bottom: 12px;
+        margin-top: 4rem;
+    }
+
+    /* Testimonial */
+    .testi {
+        padding: 6rem 5rem;
+    }
+
+    .testi .container .header-testi h3 {
+        color: rgb(247, 109, 55);
+        font-weight: 700;
+        font-size: 45px;
+    }
+
+    .testi .container .customer-testi {
+        margin-top: 2.7rem;
+    }
+
+    .testi .container .person-testi {
+        position: relative;
+    }
+
+    .testi .container .person-testi h2 {
+        font-size: 40px;
+        color: rgb(247, 109, 55);
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    .testi .container .heading {
+        position: absolute;
+        top: -22px;
+        left: 20%;
+    }
+
+    .testi .container .paragraf {
+        padding: 2.7rem;
+        border-left: 4px solid rgba(0, 0, 0, 0.8);
+        border-right: 4px solid rgba(0, 0, 0, 0.8);
+    }
+
+    .testi .container .person-testi::after {
+        content: "";
+        display: block;
+        border-top: 4px solid rgba(0, 0, 0, 0.8);
+        width: 20%;
+        margin-left: 80%;
+    }
+
+    .testi .container .person-testi::before {
+        content: "";
+        display: block;
+        border-top: 4px solid rgba(0, 0, 0, 0.8);
+        width: 20%;
+    }
+
+    .testi .container .btn-move button:hover {
+        background-color: rgb(247, 109, 55) !important;
+    }
+}
