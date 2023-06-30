@@ -4,7 +4,7 @@
 
 * {
     box-sizing: border-box !important;
-    transition: ease all 0.5s;
+    /* transition: ease all 0.5s; */
 }
 
 a {
@@ -88,21 +88,35 @@ nav .navbar-collapse {
     background-image: url(../imgs/banner-bg.png);
     background-size: cover;
     background-position: center;
-    /* min-height: 100vh; */
 }
 
 .container-text .heading-top {
     color: #252525;
+    transform: translate(0, -90px);
+    transition: 1s;
+    opacity: 0;
 }
 
 .container-text .heading-coffe {
     color: #fdfcfa;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+    transform: translate(0, -90px);
+    transition: 1s;
+    opacity: 0;
 }
 
 .container-text .paragraf {
     color: #fdfcfa;
     text-shadow: 1px 1px 10px rgba(0, 0, 0, 1);
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.container-text button {
+    opacity: 0;
+    transform: translateX(-90px);
+    border: none;
+    transition: 0.5s;
 }
 
 .container-text button:hover {
@@ -111,12 +125,12 @@ nav .navbar-collapse {
 }
 
 /* About */
-.container .about-text .heading-about {
+.container .about-text h3.heading-about {
     color: rgb(247, 109, 55);
     font-weight: 700;
-}
-
-.container .about-text .heading-about {
+    opacity: 0;
+    transition: 1s;
+    transform: translate(0, -90px);
     text-transform: uppercase;
     font-weight: 700;
 }
@@ -124,11 +138,26 @@ nav .navbar-collapse {
 .container .about-text .about-paragraf {
     margin-top: 13px;
     color: #333;
+    opacity: 0;
+    transform: translate(0, 50px);
+    transition: 1s;
 }
 
 .container .image-about img {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.7);
     border-radius: 20px;
+}
+
+#button-about {
+    transition: 1s;
+    transform: translate(-90px, 0);
+    opacity: 0;
+}
+
+#img-about {
+    transition: 1s;
+    transform: translate(0, -20px);
+    opacity: 0;
 }
 
 .container .about-text button:hover {
@@ -157,7 +186,9 @@ nav .navbar-collapse {
     margin-top: 16px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.7);
     border-radius: 10px;
-
+    transition: 1s;
+    transform: translate(0, -50px);
+    opacity: 0;
 }
 
 .gallery .container img:hover {
@@ -178,6 +209,7 @@ nav .navbar-collapse {
     background-image: url(../imgs/services-bg.png);
     background-position: center;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .Services .container-fluid .container {
@@ -312,12 +344,4 @@ footer .social-media {
 
 footer .social-media a img:hover {
     opacity: .6;
-}
-
-/* Show Animate */
-.show-main {
-    /* opacity: 1 !important; */
-    transform: translate(0, 0);
-    opacity: 1;
-
 }
