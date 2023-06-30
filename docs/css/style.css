@@ -288,12 +288,14 @@ footer a {
     color: #c6c5c5;
 }
 
-footer a:hover {
-    color: rgb(247, 109, 55);
+footer p,
+footer a,
+footer li {
+    font-size: 15px;
 }
 
-footer .row-footer {
-    gap: 8px;
+footer a:hover {
+    color: rgb(247, 109, 55);
 }
 
 footer ul {

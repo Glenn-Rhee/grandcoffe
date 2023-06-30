@@ -162,8 +162,10 @@
         margin-top: 1.5rem;
     }
 
-    /* Contact */
-
+    /* Footer */
+    footer .row-footer {
+        text-align: center;
+    }
 }
 
 @media (min-width: 768px) {
@@ -486,11 +488,5 @@
     footer h3 {
         font-size: 25px;
         font-weight: 700;
-    }
-
-    footer p,
-    footer a,
-    footer li {
-        font-size: 15px;
     }
 }
