@@ -1,0 +1,17 @@
+/* Show Animate */
+.container-text .heading-top.show,
+.container-text .heading-coffe.show,
+.container-text .paragraf.show,
+.container-text button.show,
+.container .about-text .heading-about.show,
+.container .about-text .about-paragraf.show,
+#button-about.show,
+#img-about.show,
+.gallery .container img.show
+
+,
+#person-testi.show
+    {
+    opacity: 1;
+    transform: translate(0, 0);
+}
