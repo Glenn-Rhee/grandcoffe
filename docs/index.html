@@ -3,6 +3,9 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- <link rel="shortcut icon" href="imgs/fav-icon.png" type="image/x-icon"> -->
+    <!-- <link rel="icon" type="image/x-icon" href="imgs/fav-icon.png" /> -->
+    <link rel="shortcut icon" href="imgs/fav-icon.ico" type="image/x-icon" />
     <title>GrandCoffe</title>
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -229,7 +232,13 @@
               </div>
             </div>
             <div class="see-more">
-              <button class="btn gallery-button" type="button">See More</button>
+              <button
+                class="btn gallery-button"
+                id="button-gallery"
+                type="button"
+              >
+                See More
+              </button>
             </div>
           </div>
         </div>
@@ -333,15 +342,40 @@
               </div>
             </div>
             <div class="row">
-              <form autocomplete="off">
+              <form autocomplete="off" name="form-message">
                 <div class="col-lg-6 offset-lg-3">
+                  <div
+                    class="alert alert-success alert-dismissible fade show d-none"
+                    role="alert"
+                  >
+                    <strong>Thank You!</strong> For your message. We will
+                    respond as soon as possible.
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="alert"
+                      aria-label="Close"
+                    ></button>
+                  </div>
+                  <div
+                    class="alert alert-danger alert-dismissible fade show d-none"
+                    role="alert"
+                  >
+                    <strong>Unsent Message!</strong> Use the proper email.
+                    <button
+                      type="button"
+                      class="btn-close"
+                      data-bs-dismiss="alert"
+                      aria-label="Close"
+                    ></button>
+                  </div>
                   <div class="input-group">
                     <input
                       type="text"
-                      required
-                      placeholder="Glenn Viktor"
+                      placeholder="Name"
                       class="form-control"
                       name="nama"
+                      required
                     />
                   </div>
                 </div>
@@ -350,20 +384,10 @@
                     <input
                       type="email"
                       required
-                      placeholder="example@gmail.com"
+                      placeholder="Email"
                       class="form-control"
                       name="email"
-                    />
-                  </div>
-                </div>
-                <div class="col-lg-6 offset-lg-3">
-                  <div class="input-group">
-                    <input
-                      type="tel"
-                      required
-                      placeholder="Phone Number"
-                      class="form-control"
-                      name="phone-number"
+                      id="email"
                     />
                   </div>
                 </div>
@@ -374,12 +398,27 @@
                       placeholder="Message"
                       id="floatingTextarea2"
                       style="height: 150px"
+                      name="message"
                       required
                     ></textarea>
                     <label for="floatingTextarea2">Message</label>
                   </div>
-                  <h5 class="alert"></h5>
-                  <button type="button" class="btn button-form">Send</button>
+                  <div class="submit-button-form">
+                    <button
+                      class="btn d-none"
+                      type="button"
+                      disabled
+                      id="button-loading"
+                    >
+                      <span
+                        class="spinner-border spinner-border-sm"
+                        role="status"
+                        aria-hidden="true"
+                      ></span>
+                      Loading...
+                    </button>
+                    <button type="submit" class="btn button-form">Send</button>
+                  </div>
                 </div>
               </form>
             </div>
@@ -461,11 +500,15 @@
                 </ul>
               </div>
             </div>
+            <div class="col-md-12 text-center" id="copyright">
+              <h5>Copyright &copy;2023 Arinisa</h5>
+            </div>
           </div>
         </div>
       </div>
     </footer>
     <script src="js/bootstrap.js"></script>
-    <script src="js/app.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/animate.js"></script>
   </body>
 </html>

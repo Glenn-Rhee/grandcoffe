@@ -35,16 +35,15 @@ body {
     overflow-x: hidden !important;
 }
 
-button {
+/* button {
     background-color: #252525 !important;
     border-radius: 40px !important;
     padding: 10px;
     color: #fdfcfa !important;
     font-size: 18px !important;
-}
-
+} */
 button:hover {
-    background-color: rgb(247, 109, 55) !important;
+    background-color: rgb(247, 109, 55);
 }
 
 
@@ -113,6 +112,11 @@ nav .navbar-collapse {
 }
 
 .container-text button {
+    background-color: #252525 !important;
+    border-radius: 40px !important;
+    padding: 10px;
+    color: #fdfcfa !important;
+    font-size: 18px !important;
     opacity: 0;
     transform: translateX(-90px);
     border: none;
@@ -120,7 +124,7 @@ nav .navbar-collapse {
 }
 
 .container-text button:hover {
-    background-color: rgb(247, 109, 55);
+    background-color: rgb(247, 109, 55) !important;
     color: #fff;
 }
 
@@ -149,7 +153,12 @@ nav .navbar-collapse {
 }
 
 #button-about {
-    transition: 1s;
+    background-color: #252525;
+    border-radius: 40px;
+    padding: 10px;
+    color: #fdfcfa;
+    font-size: 18px;
+    transition: .5s;
     transform: translate(-90px, 0);
     opacity: 0;
 }
@@ -161,7 +170,7 @@ nav .navbar-collapse {
 }
 
 .container .about-text button:hover {
-    background-color: rgb(247, 109, 55);
+    background-color: rgb(247, 109, 55) !important;
     color: #fff;
 }
 
@@ -198,6 +207,16 @@ nav .navbar-collapse {
 
 .gallery .layout-gallery .container .gallery-button {
     padding: 8px 22px;
+    background-color: #252525;
+    border-radius: 40px;
+    padding: 10px;
+    color: #fdfcfa;
+    font-size: 18px;
+}
+
+#button-gallery:hover {
+    background-color: rgb(247, 109, 55) !important;
+    color: #fff;
 }
 
 /* Services */
@@ -310,6 +329,14 @@ form .button-form:hover {
     background-color: rgba(247, 110, 55, 0.753) !important;
 }
 
+#button-loading {
+    margin-top: 14px;
+    border-radius: 20px;
+    background-color: #704214;
+    /* background-color: rgb(255, 113, 56); */
+    color: white;
+}
+
 /* Footer */
 footer {
     padding-top: 4rem;
@@ -317,7 +344,7 @@ footer {
 
 footer .container-fluid {
     background-color: #252525;
-    padding: 5rem 0 3rem;
+    padding: 5rem 0 1rem;
 }
 
 footer .container-fluid,
@@ -349,4 +376,12 @@ footer .social-media {
 
 footer .social-media a img:hover {
     opacity: .6;
+}
+
+footer #copyright {
+    margin-top: 50px;
+}
+
+footer #copyright h5 {
+    font-size: 12px;
 }
